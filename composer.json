@@ -13,6 +13,7 @@
     "skyzyx/alfred-workflow-builder": "dev-master"
   },
   "require-dev": {
+    "rodneyrehm/plist": "^2.0"
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
