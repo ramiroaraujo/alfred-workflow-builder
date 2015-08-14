@@ -1,0 +1,213 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c9b51da2118f2d21401bc67630b9cebe",
+    "packages": [
+        {
+            "name": "seld/jsonlint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "c31911c75a45cd0cd1f780bb24084cb67cbd5647"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/c31911c75a45cd0cd1f780bb24084cb67cbd5647",
+                "reference": "c31911c75a45cd0cd1f780bb24084cb67cbd5647",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "time": "2015-03-04 15:41:16"
+        },
+        {
+            "name": "skyzyx/alfred-workflow-builder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skyzyx/alfred-workflow-builder.git",
+                "reference": "519451c9a3c4cff372c7d8ac1cac3296fdbc066a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skyzyx/alfred-workflow-builder/zipball/519451c9a3c4cff372c7d8ac1cac3296fdbc066a",
+                "reference": "519451c9a3c4cff372c7d8ac1cac3296fdbc066a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "seld/jsonlint": ">= 1.1",
+                "symfony/filesystem": "2.*",
+                "symfony/process": "2.*"
+            },
+            "suggest": {
+                "doctrine/cache": "Caching library.",
+                "guzzle/guzzle": "HTTP client library.",
+                "monolog/monolog": "Logging library."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alfred": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/skyzyx/alfred-workflow-builder/graphs/contributors"
+                }
+            ],
+            "description": "Workflow Builder for Alfred 2",
+            "homepage": "http://skyzyx.github.io/alfred-workflow-builder/",
+            "keywords": [
+                "alfred",
+                "workflow"
+            ],
+            "time": "2013-07-07 16:52:20"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "2.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem.git",
+                "reference": "9f70c5625a32b2f1e6fc37222f52b4e0eb437b0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/9f70c5625a32b2f1e6fc37222f52b4e0eb437b0e",
+                "reference": "9f70c5625a32b2f1e6fc37222f52b4e0eb437b0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Filesystem\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-09 16:11:14"
+        },
+        {
+            "name": "symfony/process",
+            "version": "2.8.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "25d74c90d79e66905013714d8d188e4ccb5ff466"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/25d74c90d79e66905013714d8d188e4ccb5ff466",
+                "reference": "25d74c90d79e66905013714d8d188e4ccb5ff466",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Process Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-07-01 14:16:54"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "skyzyx/alfred-workflow-builder": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
