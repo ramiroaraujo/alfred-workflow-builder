@@ -17,6 +17,6 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "scripts": {
-    "post-create-project-cmd": "./bin/init"
+    "post-create-project-cmd": "./bin/initialize"
   }
 }
