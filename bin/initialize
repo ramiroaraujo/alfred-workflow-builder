@@ -16,7 +16,7 @@ if [ -z ${bundle_id} ]; then echo "no bundle id provided"; exit 1; fi
 
 # ask workflow name
 read -p "Workflow Name: " name
-if [ -z ${name} ]; then echo "no workflow name provided"; exit 1; fi
+if [ -z "${name}" ]; then echo "no workflow name provided"; exit 1; fi
 
 # ask user name, default to git user name
 git_user=`git config --global user.name`
