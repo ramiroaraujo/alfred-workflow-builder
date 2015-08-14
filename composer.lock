@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8f9d8eb723d15c449a766175c5a86d3f",
+    "hash": "272afe98c9facaa15b7f779173a366ac",
     "packages": [
         {
             "name": "seld/jsonlint",
