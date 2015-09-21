@@ -79,7 +79,7 @@
                     <key>runningsubtext</key>
                     <string>searching..</string>
                     <key>script</key>
-                    <string>/usr/bin/php script-filter.php "{query}"</string>
+                    <string>XDEBUG_CONFIG="idekey=vagrant" /usr/local/bin/php filter.php "{query}"</string>
                     <key>subtext</key>
                     <string>search for files</string>
                     <key>title</key>
