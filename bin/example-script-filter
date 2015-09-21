@@ -22,4 +22,4 @@ $info->add($merged);
 $info->saveXML(__DIR__ . '/../info.plist');
 
 // copy script filter
-copy(__DIR__ . '/../assets/example-script-filter/script-filter.php', __DIR__ . '/../script-filter.php');
+copy(__DIR__ . '/../assets/example-script-filter/filter.php', __DIR__ . '/../filter.php');
