@@ -20,6 +20,11 @@
   },
   "minimum-stability": "stable",
   "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Workflow\\": "workflow"
+    }
+  },
   "scripts": {
   }
 }
